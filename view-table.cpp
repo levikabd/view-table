@@ -61,6 +61,10 @@ void VTable::outTable()
     curs_set(0);  // Скрываем курсор
     start_color();  // Инициализация цветов
     
+    // // Получаем размеры окна
+    // int height, width;
+    // getmaxyx(win, height, width);
+
     // Создаем окно
     const int width = 197;
     const int height = 15;
